@@ -77,3 +77,14 @@ func (h *MaxHeap) Peek() int {
 func (h *MaxHeap) Size() int {
 	return len(h.data)
 }
+
+/* 
+	Time Complexity:
+	- Push: O(log n) 
+	- Pop: O(log n)
+	- Peek: O(1) 
+	- Size: O(1)
+
+	Space Complexity:
+	- O(n) - where n is the number of elements in the heap,
+*/
